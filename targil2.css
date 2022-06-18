@@ -1,0 +1,6 @@
+body{direction: rtl;
+background-color: beige;}
+h1{text-align: center; text-decoration: underline; font-style: italic; font-weight: bolder; font-family: fantasy; color: cadetblue;} 
+h2{direction: rtl; text-decoration: underline; color: blueviolet;}
+p{text-align: left; font-size: 2em; font-family: Arial, Helvetica, sans-serif ;color: brown; direction: ltr;}
+p::first-letter{padding-left: 50px; font-size: 1.5em;}

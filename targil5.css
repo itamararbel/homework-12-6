@@ -1,0 +1,20 @@
+body::before{content: "";
+    background-image: url('https://upload.wikimedia.org/wikipedia/he/thumb/0/07/NBALogo.svg/1200px-NBALogo.svg.png');
+    background-size: 20%    ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;}
+
+img{height: 300px;}
+
+h1{ text-align: center; font-size: larger; font-family: Arial, Helvetica, sans-serif;}
+hr{width: 50%; height: 5px; background-color: violet;}
+
+ul{ list-style: circle; color: blue; font-weight: 800; font-style: italic; direction: rtl; line-height: 2;} 
+ul:first-child{list-style: square;color: green;}
+ol>li{list-style: upper-roman; color: brown;}
+li>a:link{text-decoration: none;}
+a:hover{text-shadow: 2px 2px 3px red;}
